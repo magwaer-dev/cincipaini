@@ -171,6 +171,34 @@ span{
 
 
 
+/***LOGIN FORM***/
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+label {
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
+
+
+/**POPUP MESSAGE***/
+
+
 .pop_up2{
     display: flex;
     justify-content: center;
@@ -181,6 +209,26 @@ span{
 }
 
 #pop_up2{
+    width: 50%;
+    height: auto;
+    border: 2px gold;
+    text-align: center;
+    padding: 1%;
+    color: green;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 10vw;
+}
+
+.pop_up3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+#pop_up3{
     width: 50%;
     height: auto;
     border: 2px gold;
