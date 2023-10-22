@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
     </head> 
     <body> 
         <div class="containter"> 
-            <form method="post" class="text-light"> 
+            <form name="adaugaAntagonist" method="post" class="text-light"> 
                 <div class="form-group"> 
                     <label>Nume antagonist</label> 
                     <input type="text" class="form-control" placeholder="nume" name="name" autocomplete="off"> 
@@ -70,5 +70,40 @@ if(isset($_POST['submit'])){
             <button  class="btn btn-primary" ><a href="display.php">Inapoi</a></button>
         </form> 
     </div> 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    
+     <script>
+    $(function () {
+        $("form[name='adaugaAntagonist']").validate({
+            
+            rules: {
+                nume: "required",
+                caracter: "required",
+                viata: "required"
+            },
+            
+            messages: {
+                nume: {
+                    required: "Va rog introduceti un nume"
+            },
+                caracter: {
+                    required: "Va rog introduceti un tip de caracter"
+                },
+                viata:{
+                    required: "Va rog introduceti viata antagonistului"
+                }
+            },
+            submitHandler: function (form) {
+
+              form.submit();
+              
+            }
+        });
+    }); 
+</script>
+
 </body> 
 </html>

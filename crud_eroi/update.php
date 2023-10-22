@@ -90,5 +90,6 @@ if(isset($_POST['submit'])){
             <button  class="btn btn-primary" ><a href="display.php">Inapoi</a></button>
         </form> 
     </div> 
+
 </body> 
 </html>

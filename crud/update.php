@@ -11,7 +11,7 @@ $produs=$row['produs'];
 
 
 if(isset($_POST['submit'])){
-    $nume=$_POST['name'];
+    $nume=$_POST['nume'];
     $caracter=$_POST['caracter'];
     $viata=$_POST['viata'];
     $produs=$_POST['produs'];
@@ -47,10 +47,10 @@ if(isset($_POST['submit'])){
     </head> 
     <body> 
         <div class="containter" class="hero" class="intro" > 
-            <form method="post" class="text-light"> 
+            <form name="updateForm" method="post" class="text-light"> 
                 <div class="form-group" > 
                     <label>Nume antagonist</label> 
-                    <input type="text" class="form-control" placeholder="nume" name="name" autocomplete="off" value=<?php echo $nume;?> > 
+                    <input type="text" class="form-control" placeholder="nume" name="nume" autocomplete="off" value=<?php echo $nume;?> > 
                 </div> 
                 <div class="form-group"> 
                     <label>Caracterul antagonistului</label> 
@@ -81,5 +81,6 @@ if(isset($_POST['submit'])){
             <button  class="btn btn-primary" ><a href="display.php">Inapoi</a></button>
         </form> 
     </div> 
+
 </body> 
 </html>

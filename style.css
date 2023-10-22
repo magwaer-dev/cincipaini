@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .nav{
@@ -18,7 +19,7 @@ body{
     padding: 1%;
     border-radius: 1vw;
     margin-top: 3%;
-    width: 55vw;
+    width: 60vw;
     font-size: 1.2vw;
     height: auto;
     display: flex;
@@ -265,3 +266,5 @@ button{
 .Photoslide {
   display: none;
 }
+
+

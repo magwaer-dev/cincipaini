@@ -23,7 +23,7 @@ include 'connect.php';?>
 			&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 			<a href="../video.html">Video</a>
       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="../contact.php">Contacte</a>
+      <a href="../contacte/contact.php">Contacte</a>
       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="../feedback.html">Feedback</a>
       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

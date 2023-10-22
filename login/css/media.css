@@ -1,0 +1,17 @@
+
+
+@media (max-width: 1025px) {
+  #body {
+    height: 90vh;
+}
+}
+@media (max-width: 376px) {
+  #body {
+    height: 90vh;
+}
+}
+@media (max-width: 319px) {
+  #body {
+    height: 90vh;
+}
+}

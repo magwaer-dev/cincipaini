@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/paine.jpg);
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+form {
+    border: 1px solid #1A33FF;
+    background: #ecf5fc;
+    padding: 100px 50px 45px;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+label {
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
+
+
+.pop_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+#pop_up{
+    width: 50%;
+    height: auto;
+    border: 2px gold;
+    text-align: center;
+    padding: 1%;
+    color: green;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 10vw;
+}
+
+
+/*contact*/
+
+.msg {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    border-color: black;
+    color: #22c53d;
+    text-align: center;
+  }
+
